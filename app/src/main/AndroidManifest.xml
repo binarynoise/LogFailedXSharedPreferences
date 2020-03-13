@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	package="de.binarynoise.logfailedxsharedpreferences"
+	>
+	
+	<application
+		android:allowBackup="false"
+		android:label="LogFailedXSharedPreferences"
+		tools:ignore="GoogleAppIndexingWarning,MissingApplicationIcon"
+		>
+		
+		<meta-data
+			android:name="xposedmodule"
+			android:value="true"
+			/>
+		<meta-data
+			android:name="xposeddescription"
+			android:value="Better log XSharedPreferences errors when loading from dosk fails"
+			/>
+		<meta-data
+			android:name="xposedminversion"
+			android:value="30"
+			/>
+	</application>
+
+</manifest>
